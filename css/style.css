@@ -4,11 +4,15 @@ body.custom-bg {
    
 }
 .container-fluid{
-    background-color: #5B0017;
-    color: white;
+    background-color: white;
 
 }
 .navbar-nav {
+    background-color: #5B0017;
+    
+}
+.bg-white {
+    
     background-color: #5B0017;
 }
 
@@ -43,3 +47,19 @@ body.custom-bg {
     max-height: 100%;
 }
 
+  .bg-cc9d2f {
+    background-color: #CC9D2F;
+  }
+
+  .transparent-border {
+    border: 2px solid rgba(91, 0, 23, 0.5);
+    padding: 10px;
+    background-color: transparent;
+    margin-top: 20px;
+    color: #5B0017;
+  }
+  .navbar-nav {
+    display: inline-flex;
+    justify-content: center;
+    gap: 20px;
+}
