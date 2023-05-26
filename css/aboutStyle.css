@@ -1,0 +1,48 @@
+
+
+.text-cc9d2f {
+  color: #CC9D2F;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .footer {
+    margin-top: auto;
+  }
+
+  .timeline {
+    position: relative;
+  }
+  
+  .timeline-line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    margin-left: 50%;
+    background-color: #ccc;
+  }
+  
+  .timeline-item {
+    position: relative;
+  }
+  
+  .timeline-item:before {
+    content: "";
+    position: absolute;
+    bottom: -5px; /* Ajustez la valeur selon votre besoin */
+    left: 50%;
+    width: 8px; /* Ajustez la largeur du petit tiret */
+    height: 8px; /* Ajustez la hauteur du petit tiret */
+    border-radius: 50%;
+    background-color: #ccc;
+    transform: translateX(-50%);
+  }
+  
+  
+
+ 

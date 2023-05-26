@@ -63,3 +63,12 @@ body.custom-bg {
     justify-content: center;
     gap: 20px;
 }
+.text-gray {
+    color: #888888; /* Remplacez #888888 par le code de couleur gris de votre choix */
+  }
+  .bg-color-block {
+    max-width: 100%;
+    height: 100px; /* Ajustez la hauteur selon vos besoins */
+  
+}
+
